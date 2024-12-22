@@ -204,7 +204,7 @@ function checkBan(checkban) {
             //logger(json.data[Math['floor'](Math['random']() * json.data.length)], ' Note: ');
             //console.log("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
         })
-    }).catch(error => {
+    }.catch(error => {
         throw new Error(error);
     });
 }
